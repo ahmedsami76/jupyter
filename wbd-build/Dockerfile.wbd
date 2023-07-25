@@ -1,7 +1,0 @@
-# This Dockerfile builds a Jupyter Notebook Server Image including:
-# - jupyter/scipy-notebook (as defined in https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-scipy-notebook)
-# - world-bank-data Python Package
-# - plotly - Python Open Source Graphing Library
-
-FROM jupyter/scipy-notebook
-RUN pip install world_bank_data plotly --upgrade
